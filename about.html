@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lib/fancyapps_pen.css">
+    <link rel="stylesheet" href="css/lib/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="pagewrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-md-5 col-6">
+                            <div class="header__logo">
+                                <a href="index.html">
+                                    <img src="img/svg/logo.svg" alt="logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-6">
+                            <div class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <nav class="header__nav">
+                                <div class="header__nav-wrapper">
+                                    <div class="close-menu"></div>
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">
+                                                Home
+                                            </a>
+                                        </li>
+                                        <li class="submenu">
+                                            <a href="platform.html">
+                                                Platform
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="platform.html">
+                                                        Platform
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="faq.html">
+                                                        FAQ
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="submenu">
+                                            <a class="active" href="about.html">
+                                                About
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="about.html#team">
+                                                        Executive Team
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="about.html#directors">
+                                                        Board of Directors
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="about.html#advisors">
+                                                        Board of Advisors
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="careers.html">
+                                                Careers
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="header__nav-bottom">
+                                        <div class="header__bottom-btn">
+                                            <a href="mailto:info@pingthings.io?subject=request a demo"
+                                                class="sectbtn">REQUEST A DEMO</a>
+                                        </div>
+                                        <ul class="header__bottom-menu">
+                                            <li>
+                                                <a href="privacy.html">
+                                                    PRIVACY POLICY
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="faq.html">
+                                                    FAQ
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://twitter.com/i/flow/login?redirect_after_login=%2Fpingthingsio">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M16.8196 20.7684L3.75299 3.96836C3.44646 3.57425 3.72731 3 4.2266 3H6.70637C6.89152 3 7.06631 3.08548 7.17998 3.23164L20.2466 20.0316C20.5532 20.4258 20.2723 21 19.773 21H17.2933C17.1081 21 16.9333 20.9145 16.8196 20.7684Z"
+                                                            stroke="#fff" stroke-width="1.5" />
+                                                        <path d="M20 3L4 21" stroke="#fff" stroke-width="1.5"
+                                                            stroke-linecap="round" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/company/pingthings/about/">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z"
+                                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7 17V13.5V10" stroke="#fff" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11 17V13.75M11 13.75V10M11 13.75C11 10 17 10 17 13.75V17"
+                                                            stroke="#fff" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7 7.00989L7.01 6.99878" stroke="#fff"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="herosect" data-aos="fade-in">
+                <img src="img/header_about.jpeg" alt="image" class="herosect__bg" style="object-position: 0% 16%;">
+                <div class="container">
+                    <div class="herosect__title">
+                        <h1>
+                            About Us
+                        </h1>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="team" id="team">
+                    <div class="about__title blue" data-aos="fade-in" data-aos-delay="50">
+                        <div class="titlewrap">
+                            <img src="img/svg/blue_line_left.svg" alt="blue-line" class="left-frame">
+                            <h2>
+                                Meet our Executive Team
+                            </h2>
+                            <img src="img/svg/blue_line_right.svg" alt="blue-line" class="right-frame">
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="teamsect" data-aos="fade-left">
+                            <div class="teamsect__photo">
+                                <img src="img/photo1.jpg" alt="photo" data-aos="fade-in" data-aos-delay="150">
+                            </div>
+                            <div class="teamsect__description" data-aos="fade-in" data-aos-delay="500">
+                                <div class="teamsect__description-head">
+                                    <div>
+                                        <p class="name">
+                                            Sean Murphy
+                                        </p>
+                                        <p class="position">
+                                            CHIEF EXECUTIVE OFFICER
+                                        </p>
+                                    </div>
+                                    <div class="teamsect__description-contacts--mobile">
+                                        <a href="mailto:ceo@pingthings.io">
+                                            <img src="img/svg/icon_mail_grey.svg" alt="mail">
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/seanpatrickmurphy1/" target="_blank">
+                                            <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="teamsect__description-content">
+                                    <p>
+                                        Prior to PingThings, Sean built a small data science and analytics consultancy
+                                        that served multiple industries and quickly grew to over a million dollars a
+                                        year in revenue. Previously, he bootstrapped an email analytics company to over
+                                        $500K in ARR and served as the director or research and an instructor at
+                                        Manhattan Prep (acquired by Kaplan). Prior, he was a senior scientist at the JHU
+                                        Applied Physics Laboratory for over a decade, where he focused on machine
+                                        learning, high-performance and cloud-based computing, and anomaly detection. He
+                                        has undergraduate degrees in honors mathematics (cum laude) and honors
+                                        electrical engineering (magna cum laude) from the University of Maryland College
+                                        Park and graduate degrees in biomedical engineering (summa cum laude) from Johns
+                                        Hopkins University and business (with Distinction) from Oxford University.
+                                    </p>
+                                </div>
+                                <div class="teamsect__description-contacts">
+                                    <a href="mailto:ceo@pingthings.io">
+                                        <img src="img/svg/icon_mail_grey.svg" alt="mail">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/seanpatrickmurphy1/" target="_blank">
+                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teamsect" data-aos="fade-right">
+                            <div class="teamsect__description" data-aos="fade-in" data-aos-delay="500">
+                                <div class="teamsect__description-head">
+                                    <div>
+                                        <p class="name">
+                                            Mike Brown
+                                        </p>
+                                        <p class="position">
+                                            CHIEF TECHNOLOGY OFFICER
+                                        </p>
+                                    </div>
+                                    <div class="teamsect__description-contacts--mobile">
+                                        <a href="mailto:mbrown@pingthings.io">
+                                            <img src="img/svg/icon_mail_grey.svg" alt="mail">
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/michael-brown-2010735/" target="_blank">
+                                            <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="teamsect__description-content">
+                                    <p>
+                                        Mike is a hands-on technologist and business leader that has (co)founded four
+                                        venture-backed companies in several industries including broadband networking,
+                                        mobile video, cloud storage, cybersecurity and AI assisted digital health.
+                                        Collectively his teams’ products have served more than 300 million subscribers
+                                        and earned $3.2B in worldwide sales. Prior to launching his startup career, Mike
+                                        led pioneering systems engineering programs for the DoD and Intelligence
+                                        communities and was a radar missile guidance and ECM-ECCM engineer. He loves all
+                                        things digital and creating world class, leading-edge products and services that
+                                        enhance our daily lives. Mike holds an MBA from Boston University, MSEE from the
+                                        University of Southern California and a BSEE from Worcester Polytechnic
+                                        Institute.
+                                    </p>
+                                </div>
+                                <div class="teamsect__description-contacts">
+                                    <a href="mailto:mbrown@pingthings.io">
+                                        <img src="img/svg/icon_mail_grey.svg" alt="mail">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/michael-brown-2010735/" target="_blank">
+                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="teamsect__photo">
+                                <img src="img/photo2.jpg" alt="photo" data-aos="fade-in" data-aos-delay="150">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="directors" id="directors">
+                    <div class="about__title orange" data-aos="fade-in" data-aos-delay="50">
+                        <div class="titlewrap">
+                            <img src="img/svg/line_chart_left.svg" alt="blue-line" class="left-frame">
+                            <h2>
+                                Board of Directors
+                            </h2>
+                            <img src="img/svg/line_chart_right.svg" alt="blue-line" class="right-frame">
+                        </div>
+                    </div>
+                    <div class="directors__inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="50">
+                                    <div class="person__item">
+                                        <div class="person__item-photo">
+                                            <img src="img/photo3.jpg" alt="photo">
+                                        </div>
+                                        <div class="person__item-text">
+                                            <div class="person__item-info orange">
+                                                <div>
+                                                    <p class="name">Paul Winters</p>
+                                                    <p class="position">MANAGING PARTNER,<br> PETRA FUNDS GROUP</p>
+                                                </div>
+                                                <div class="person__item-socials--mobile">
+                                                    <a href="https://www.linkedin.com/in/paul-winters-5526a78/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="person__item-content">
+                                                <p>
+                                                    Paul Winters is the board representative of Three Curve Capital LP
+                                                    (“TCC”), the family office of Mr. Stuart Porter, founder and CEO of
+                                                    Denham Capital Management LP (“Denham”). TCC invests in early stage
+                                                    companies across a range of technologies, applications and sectors.
+                                                    Paul also serves as Managing Director and General Counsel of Denham,
+                                                    a $9.5 billion+ energy and resources focused investment advisor. He
+                                                    is responsible for all legal matters involving Denham, its funds and
+                                                    its investments. Paul has almost 25 years of experience as a
+                                                    transactional lawyer, and has handled a wide range of matters
+                                                    arising across the lifecycle of companies in the energy sector. He
+                                                    serves as a board member of Greenleaf Power, a North American
+                                                    biomass-focused IPP, and Endeavor Energy, an Africa-focused thermal
+                                                    and renewable IPP, among others.
+                                                </p>
+                                                <div class="person__item-socials">
+                                                    <a href="https://www.linkedin.com/in/paul-winters-5526a78/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="person__item">
+                                        <div class="person__item-photo">
+                                            <img src="img/photo4.jpg" alt="photo">
+                                        </div>
+                                        <div class="person__item-text">
+                                            <div class="person__item-info orange">
+                                                <div>
+                                                    <p class="name">Andrew Byrnes</p>
+                                                    <p class="position">VENTURE CAPITALIST,<br> MICRON TECHNOLOGY</p>
+                                                </div>
+                                                <div class="person__item-socials--mobile">
+                                                    <a href="https://www.linkedin.com/in/byrnesandrew/" target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="person__item-content">
+                                                <p>
+                                                    As Director for Micron's AI Fund and portfolio manager for Comet
+                                                    Labs, Andrew invests in and supports the best early-stage AI and
+                                                    robotics startups that transform big industries. His focus is in
+                                                    deep tech, industrial automation, and computing hardware that enable
+                                                    the next wave of machine learning innovation. Prior to Comet, Andrew
+                                                    was the founder of Stower Energy - an early startup leveraging
+                                                    machine learning to provide predictive operations and maintenance
+                                                    for distributed energy systems - and project manager for utility
+                                                    scale power developer the Martifer Group. He did his graduate work
+                                                    in Materials Science and Engineering at Stanford University, and
+                                                    enjoys his limited peaceful moments in the quiet fog of Pacifica.
+                                                </p>
+                                                <div class="person__item-socials">
+                                                    <a href="https://www.linkedin.com/in/byrnesandrew/" target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4" data-aos="fade-up" data-aos-delay="600">
+                                    <div class="person__item">
+                                        <div class="person__item-photo">
+                                            <img src="img/photo5.jpg" alt="photo">
+                                        </div>
+                                        <div class="person__item-text">
+                                            <div class="person__item-info orange">
+                                                <div>
+                                                    <p class="name">Ali Raza</p>
+                                                    <p class="position">CHIEF DIGITAL OFFICER,<br> CHAMPIONX</p>
+                                                </div>
+                                                <div class="person__item-socials--mobile">
+                                                    <a href="https://www.linkedin.com/in/ali-raza-0b5891a/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="person__item-content">
+                                                <p>
+                                                    Biography coming soon.
+                                                </p>
+                                                <div class="person__item-socials">
+                                                    <a href="https://www.linkedin.com/in/ali-raza-0b5891a/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advisors" id="advisors">
+                    <div class="about__title darkblue" data-aos="fade-in" data-aos-delay="50">
+                        <div class="titlewrap">
+                            <img src="img/svg/line_darkblue_left.svg" alt="darkblue-line" class="left-frame">
+                            <h2>
+                                Board of Advisors
+                            </h2>
+                            <img src="img/svg/line_darkblue_right.svg" alt="darkblue-line" class="right-frame">
+                        </div>
+                    </div>
+                    <div class="advisors__inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="person__item">
+                                        <div class="person__item-photo">
+                                            <img src="img/photo8.jpg" alt="photo">
+                                        </div>
+                                        <div class="person__item-text">
+                                            <div class="person__item-info darkblue">
+                                                <div>
+                                                    <p class="name">Alison Silverstein</p>
+                                                    <p class="position">INDEPENDENT CONSULTANT</p>
+                                                </div>
+                                                <div class="person__item-socials--mobile">
+                                                    <a href="https://www.linkedin.com/in/alison-silverstein-3779792a/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="person__item-content">
+                                                <p>
+                                                    Alison Silverstein is an independent consultant, strategist and
+                                                    researcher on electric system reliability, resilience, market
+                                                    design, transmission, energy efficiency and technology adoption
+                                                    issues. Her work on major federal electricity efforts includes the
+                                                    U.S. DOE’s Staff Report on Electric Markets and Reliability, three
+                                                    national transmission congestion studies, the Hawaii Clean Energy
+                                                    Initiative framework, and the industry-wide advancement of
+                                                    synchrophasor technology. Silverstein has advised states, utilities,
+                                                    ISOs, and non-governmental entities since 2004. Silverstein worked
+                                                    as a senior advisor to Chairman Pat Wood, III, at FERC from 2001
+                                                    through 2004, co-chairing the 2003 U.S.-Canada blackout
+                                                    investigation, at the Public Utility Commission of Texas from
+                                                    1995-2001, and previously at PG&E and as a consultant in Washington
+                                                    DC. She serves on the Boards of the American Council for an Energy
+                                                    Efficient Economy and the Health Alliance for Austin Musicians.
+                                                </p>
+                                                <div class="person__item-socials">
+                                                    <a href="https://www.linkedin.com/in/alison-silverstein-3779792a/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="person__item">
+                                        <div class="person__item-photo">
+                                            <img src="img/photo9.jpg" alt="photo">
+                                        </div>
+                                        <div class="person__item-text">
+                                            <div class="person__item-info darkblue">
+                                                <div>
+                                                    <p class="name">Dr. Alexandra von Meier</p>
+                                                    <p class="position">GRID SUBJECT MATTER EXPERT</p>
+                                                </div>
+                                                <div class="person__item-socials--mobile">
+                                                    <a href="https://www.linkedin.com/in/alexandra-von-meier-73147b5/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="person__item-content">
+                                                <p>
+                                                    Alexandra “Sascha” von Meier is an Adjunct Professor in the
+                                                    Department of Electrical Engineering and Computer Science at UC
+                                                    Berkeley, where she teaches a course on Electric Power Systems. She
+                                                    is also Director in CIEE’s Electric Grid program area, focuses on
+                                                    power distribution systems, Smart Grid issues, and the integration
+                                                    of distributed and intermittent generation. Her current research
+                                                    projects center on the use of high-precision micro-synchrophasor
+                                                    measurements for situational awareness, diagnostics and control
+                                                    applications in distribution grids.
+                                                </p>
+                                                <div class="person__item-socials">
+                                                    <a href="https://www.linkedin.com/in/alexandra-von-meier-73147b5/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="person__item">
+                                        <div class="person__item-photo">
+                                            <img src="img/photo6.jpg" alt="photo">
+                                        </div>
+                                        <div class="person__item-text">
+                                            <div class="person__item-info darkblue">
+                                                <div>
+                                                    <p class="name">Leonard Rainow</p>
+                                                    <p class="position">SENIOR EXECUTIVE, HUBBELL INCORPORATED<br>
+                                                        HUBBELL
+                                                        INCORPORATED</p>
+                                                </div>
+                                                <div class="person__item-socials--mobile">
+                                                    <a href="https://www.linkedin.com/in/leonardrainow/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="person__item-content">
+                                                <p>
+                                                    As Vice President, Software for Hubbell Utilities Solutions, Leonard
+                                                    is responsible for leading the design, development and delivery of
+                                                    enterprise class cloud-native Industrial IoT solutions that enable
+                                                    electric, water, and gas distribution utilities to safely, reliably,
+                                                    and efficiently operate their networks. Leonard has more than 30
+                                                    years of experience in software industry, working for both public
+                                                    and private companies. Leonard has held leadership positions as
+                                                    Chief Technology Officer and Global Head of Software Engineering for
+                                                    companies such as General Electric, Oracle, Selectica, Manugistics
+                                                    and others.Leonard started his career as software architect at
+                                                    PeopleSoft’s pre-IPO stage. He studied Applied Mathematics at Odessa
+                                                    University in Odessa, Ukraine.
+                                                </p>
+                                                <div class="person__item-socials">
+                                                    <a href="https://www.linkedin.com/in/leonardrainow/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="person__item">
+                                        <div class="person__item-photo">
+                                            <img src="img/photo7.jpg" alt="photo">
+                                        </div>
+                                        <div class="person__item-text">
+                                            <div class="person__item-info darkblue">
+                                                <div>
+                                                    <p class="name">Cory Baldwin</p>
+                                                    <p class="position">VICE PRESIDENT, <br> INFRASTRUCTURE IOT AT
+                                                        BENTLEY
+                                                        SYSTEMS</p>
+                                                </div>
+                                                <div class="person__item-socials--mobile">
+                                                    <a href="https://www.linkedin.com/in/cory-baldwin-96180b33/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="person__item-content">
+                                                <p>
+                                                    Cory has spent his 20+ year career developing technology forward products and solutions to address the challenges of the world’s largest and most challenging industries – Infrastructure, Energy, Natural Resources, and Construction. From focused development and application of novel triple-difference processing techniques for GNSS capable of millimeter-level geospatial monitoring of critical infrastructure – to development of a broad end-to-end IoT platform capable of providing integrated insights across the world’s largest portfolio of structural, geotechnical, environmental, geospatial, and process sensors – he is passionate about addressing customer’s challenges regardless of the scope or complexity. Cory believes that success comes from the practical application of technology to enable improved decision-making, enhanced productivity, and effectiveness at an individual level – made possible with well-conceived solutions leveraging the best technology, tools, and training.
+                                                </p>
+                                                <div class="person__item-socials">
+                                                    <a href="https://www.linkedin.com/in/cory-baldwin-96180b33/"
+                                                        target="_blank">
+                                                        <img src="img/svg/icon_linkedin_grey.svg" alt="linkedin">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ctasect">
+                <img src="img/svg/electric_grid.svg" alt="background" class="ctasect__bg">
+                <div class="container">
+                    <div class="row align-items-end">
+                        <div class="col-xl-8 col-lg-6">
+                            <div class="ctasect__title">
+                                <h2 class="printed-text">
+                                    <span>Place call to action text here </span>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6">
+                            <div class="ctasect__buttons">
+                                <a href="mailto:info@pingthings.io?subject=request a demo" class="sectbtn">REQUEST A
+                                    DEMO</a>
+                                <!-- <a href="#" class="orange-btn">explore plotter</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="footer__logo">
+                                <a href="index.html">
+                                    <img src="img/svg/logo.svg" alt="logotype">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="footer__info">
+                                <div class="footer__info-col">
+                                    <div class="icon">
+                                        <img src="img/svg/location.svg" alt="location">
+                                    </div>
+                                    <div class="info">
+                                        <h4>
+                                            MAILING ADDRESS
+                                        </h4>
+                                        <p>
+                                            1950 W Corporate Way, #12957<br>
+                                            Anaheim, CA 92801
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="footer__info-col">
+                                    <div class="icon">
+                                        <img src="img/svg/phone.svg" alt="phone">
+                                    </div>
+                                    <div class="info">
+                                        <h4>
+                                            CALL US
+                                        </h4>
+                                        <a href="tel:(202) 991-0887">
+                                            (202) 991-0887
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="footer__info-col">
+                                    <div class="icon">
+                                        <img src="img/svg/share.svg" alt="share">
+                                    </div>
+                                    <div class="info">
+                                        <h4>
+                                            FOLLOW US
+                                        </h4>
+                                        <ul>
+                                            <li>
+                                                <a
+                                                    href="https://twitter.com/i/flow/login?redirect_after_login=%2Fpingthingsio">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M16.8196 20.7684L3.75299 3.96836C3.44646 3.57425 3.72731 3 4.2266 3H6.70637C6.89152 3 7.06631 3.08548 7.17998 3.23164L20.2466 20.0316C20.5532 20.4258 20.2723 21 19.773 21H17.2933C17.1081 21 16.9333 20.9145 16.8196 20.7684Z"
+                                                            stroke="#6C6E6E" stroke-width="1.5" />
+                                                        <path d="M20 3L4 21" stroke="#6C6E6E" stroke-width="1.5"
+                                                            stroke-linecap="round" />
+                                                    </svg>
+                                                    Twitter
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/company/pingthings/about/">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z"
+                                                            stroke="#6C6E6E" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7 17V13.5V10" stroke="#6C6E6E" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path
+                                                            d="M11 17V13.75M11 13.75V10M11 13.75C11 10 17 10 17 13.75V17"
+                                                            stroke="#6C6E6E" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                        <path d="M7 7.00989L7.01 6.99878" stroke="#6C6E6E"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                    Linkedin
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__bottom-menu">
+                        <ul>
+                            <li>
+                                <a href="privacy.html">
+                                    PRIVACY POLICY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="faq.html">
+                                    FAQ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__bottom-copy">
+                        <p>
+                            PingThings, Inc. © Copyright 2024. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--Formspree-->
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+        /* paste this line in verbatim */
+        window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+        /* customize formbutton below*/
+        formbutton("create", {
+            action: "https://formspree.io/f/mvoneweg",
+            title: "How Can We Help?",
+            fields: [
+                {
+                    type: "email",
+                    label: "Email:",
+                    name: "email",
+                    required: true,
+                    placeholder: "your@email.com"
+                },
+                {
+                    type: "textarea",
+                    label: "Message:",
+                    name: "message",
+                    placeholder: "Please let us know how we can help.",
+                },
+                { type: "submit" }
+            ],
+            styles: {
+                title: {
+                    backgroundColor: "#d08140",
+                },
+                button: {
+                    backgroundColor: "#d08140",
+                }
+            }
+        });
+    </script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/fancyapps.js"></script>
+    <script src="js/lib/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
